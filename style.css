@@ -302,6 +302,11 @@ section {
     margin: auto 0;
 }
 
+/* github-about-subtext-p1 */
+.github-about-subtext-p1 {
+    margin-top: 4px;
+}
+
 /* Experience Section */
 
 #experience {
