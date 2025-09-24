@@ -9,6 +9,12 @@
     
 }
 
+@media (min-width: 1200px) {
+   body {
+       background-image: url('./Assets/assets/Sky-2.png');
+   }
+}
+
 
 @media screen and (max-width: 1200px) {
     #desktop-nav {
