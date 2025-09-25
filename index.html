@@ -156,18 +156,40 @@
                     <div class="about-containers">
                     <div class="details-container color-container">
                         <div class="article-container">
-                            <img src="./Assets/assets/project-1.png" alt="Project 1" class="project-img"/>
+                            <img src="./Assets/assets/Finalize/Magazine Cover/Hello Retro Issue No.1.png" alt="Project 1" class="project-img" onclick="openImageModal(this)"/>
                         </div>
                         <h2 class="experience-sub-title project-title">Project One</h2>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'"> <p> Github </p> </button>
-                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'"> <p> Live Demo </p> </button>
                         </div>
                     </div>
-                </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./Assets/assets/Finalize/Product Ads/Softdrink 2 Poster.png" alt="Project 1" class="project-img" onclick="openImageModal(this)"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Two</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'"> <p> Github </p> </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./Assets/assets/Finalize/Album Cover/Sunset Dew Ricardo (Full Cover Album).png" alt="Project 1" class="project-img" onclick="openImageModal(this)"/>
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Three</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'"> <p> Github </p> </button>
+                        </div>
+                    </div>
+                    </div>
                 </div>
                 <img src="./Assets/assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
             </section>
+            <div id="imageModal" class="modal">
+                <span class="close-btn">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="captionText"></div>
+            </div>
             <section id="contact">
                 <p class="section_text_p1">Get in Touch</p>
                 <h1 class="title">Contact Me</h1>
@@ -182,6 +204,11 @@
                     </div>
                 </div>
             </section>
+            <script>
+                function change(element) {
+                    element.classList.toggle("fullsize");
+                }
+            </script>  
             <footer>
                 <nav>
                     <div class="nav-link-container">
