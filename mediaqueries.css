@@ -9,7 +9,7 @@
     
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 465px) {
    body {
        background-image: url('./Assets/assets/Sky-2.png');
    }
